@@ -173,11 +173,11 @@ h1{
 }
 @keyframes lastLast{
     0%{      
-        border-radius: 30%;
+        border-radius: 50%;
         border-bottom: 3px solid black;
     }
     100%{
-        border-radius: 30%;
+        border-radius: 50%;
         border-bottom: 15px solid black;
     }
 }
