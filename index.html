@@ -6,9 +6,10 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+  
 </head>
 <body>
-    <form action="home.html" class="form">
+    <form class="form">
         <div class="faceContainer">
             <div class="eye" id="left"></div>
             <div class="eye" id="right"></div>
@@ -19,14 +20,17 @@
         <label for="email" class="labelEmail">
             <span class="contentEmail">Username</span>
         </label>
-        <input type="password" id="pass" required>
+        <input type="password" id="password" required>
         <label for="password" class="labelPass">
             <span class="contentPass">Password</span>
         </label>
-        <button class="btn">
-            <span>Login</span>
+        <button class="btn" id="signIn" onclick="signIn()">
+            <span>Sign In</span>
+        </button>
+        <button class="btn" id="signUp" onclick="signUp()">
+            <span>Sign Up</span>
         </button>
     </form>
-    <script src="index.js"></script>
+        <script src="index.js"></script>
 </body>
 </html>
