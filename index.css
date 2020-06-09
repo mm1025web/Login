@@ -16,7 +16,7 @@ body{
 
 .form{
     width: 300px;
-    height: 400px;
+    height: 450px;
     position: relative;
     background-color: antiquewhite;
     display: flex;
@@ -73,7 +73,8 @@ button{
     display: flex;
     align-self: center;
     justify-content: center; 
-    margin-top: 30px;
+    padding: 13px;
+    margin-top: 20px;
     border-radius: 30px;
     font-size: 19px;
     text-align: center;
